@@ -14,7 +14,7 @@ class DefaultTemplate(Scene):
             axis_config={"color": BLACK},
         )
 
-        function = sp.exp
+        function = sp.sin
 
         x_label = axes.get_x_axis_label("x")
         y_label = axes.get_y_axis_label("y")
